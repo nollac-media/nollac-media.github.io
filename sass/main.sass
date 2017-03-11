@@ -1,0 +1,159 @@
+body
+	background: #2e2e30
+
+.header
+	margin-top: 30px
+
+.container 
+	max-width: 1100px
+	margin: 0 auto
+	padding: 0 10px
+
+.navigation
+	display: flex
+	justify-content: space-between
+
+.logo_link
+	display: inline-block
+	text-decoration: none
+	color: #fff
+	font-family: Merriweather
+	font-size: 22px
+	font-weight: 800
+	line-height: 26px
+	padding: 15px
+	&:hover
+		background: #38383a
+		border-radius: 5px 
+
+.nav_menu
+	display: flex
+	margin: 0
+	padding: 0
+	list-style: none
+	background: #38383a
+	border-radius: 5px
+	li 
+		margin: 20px
+
+.nav_menu_link
+	text-decoration: none
+	color: #888
+	font-family: MerriweatherSans
+	font-size: 13px
+	line-height: 26px
+	font-weight: 400
+	padding: 20px 15px
+	margin: 0 5px
+		
+.nav_menu_link:hover
+	color: #fff
+
+.content
+	margin-top: 35px
+
+.header_post
+	position: relative
+
+.header_post_img
+	border-radius: 10px
+
+.header_post_img 
+	background: url(../img/content/lifestyle.jpg) no-repeat 
+	background-size: cover
+	vertical-align: middle
+	width: 100%
+	height: 615px
+	border-radius: 5px
+
+.header_post_descr
+	position: relative
+	left: 50px
+	top: 205px
+	max-width: 550px
+
+.header_post_category
+	padding: 8px 15px
+	color: #fff
+	font-size: 17px
+	font-weight: 400
+	line-height: 1
+	text-transform: uppercase
+	background: #4b77be
+	border-radius: 5px
+
+.header_post_title
+	color: #fff
+	font-family: Merriweather
+	font-size: 32px
+	font-weight: 700
+	line-height: 1.5
+
+.header_post_text
+	color: #fff
+	font-family: Merriweather
+	font-size: 16px
+	font-weight: 400
+	line-height: 1.62
+
+.header_post_link
+	text-decoration: none
+	text-transform: uppercase
+	padding: 6px 21px
+	color: #fff
+	font-family: MerriweatherSans
+	font-size: 14px
+	font-weight: 400
+	line-height: 1.8
+	border: 1px solid rgba(255, 255, 255, 0.7)
+	border-radius: 15px
+	&:hover 
+		color: #999
+		border: 1px solid rgba(153, 153, 153, 0.7)
+
+.header_post_info 
+	display: flex
+	justify-content: space-between
+	position: absolute
+	left: 0
+	right: 0
+	bottom: 0
+	list-style: none
+	margin: 0
+	padding: 0
+	background: #fff
+	border-radius: 5px
+	&:after 
+		position: absolute
+		top: 0
+		content: ""
+		width: 100%
+		height: 5px
+		background: #fff
+
+.header_post_item
+	max-width: 170px
+	padding-left: 45px
+	padding-right: 60px
+	cursor: pointer
+	&.active
+		background: #4b77be
+		z-index: 5
+
+.post_item_category 
+	display: inline-block
+	color: #38383a
+	font-family: MerriweatherSans
+	font-size: 12px
+	font-weight: 400
+	line-height: 26px
+	text-transform: uppercase
+	margin-top: 25px
+
+.post_item_text
+	color: #38383a
+	font-family: Merriweather
+	font-size: 16px
+	font-weight: 700
+	line-height: 26px
+	padding-bottom: 10px

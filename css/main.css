@@ -1,0 +1,268 @@
+@font-face {
+  font-family: Merriweather;
+  font-style: italic;
+  font-weight: 300;
+  src: local("Merriweather Light Italic"),local(Merriweather-LightItalic),url(//fonts.gstatic.com/s/merriweather/v15/EYh7Vl4ywhowqULgRdYwICH_XWDaITL6s384ufbsW_o.eot?#) format("eot"),url(//fonts.gstatic.com/s/merriweather/v15/EYh7Vl4ywhowqULgRdYwIHM1hBkL4m68a-ReB_y0NYc.woff2) format("woff2"),url(//fonts.gstatic.com/s/merriweather/v15/EYh7Vl4ywhowqULgRdYwIG0Xvi9kvVpeKmlONF1xhUs.woff) format("woff");
+}
+
+@font-face {
+  font-family: Merriweather;
+  font-style: italic;
+  font-weight: 400;
+  src: local("Merriweather Italic"),local(Merriweather-Italic),url(//fonts.gstatic.com/s/merriweather/v15/So5lHxHT37p2SS4-t60SlDoGYR7Z3iWH66EXnaJoKgg.eot?#) format("eot"),url(//fonts.gstatic.com/s/merriweather/v15/So5lHxHT37p2SS4-t60SlBMBlNeli-0RcAdOFWWLdxQ.woff2) format("woff2"),url(//fonts.gstatic.com/s/merriweather/v15/So5lHxHT37p2SS4-t60SlHpumDtkw9GHrrDfd7ZnWpU.woff) format("woff");
+}
+
+@font-face {
+  font-family: Merriweather;
+  font-style: italic;
+  font-weight: 700;
+  src: local("Merriweather Bold Italic"),local(Merriweather-BoldItalic),url(//fonts.gstatic.com/s/merriweather/v15/EYh7Vl4ywhowqULgRdYwICy7jlJQNiTiB3-MejPw_5E.eot?#) format("eot"),url(//fonts.gstatic.com/s/merriweather/v15/EYh7Vl4ywhowqULgRdYwIEcqRxak6Wc5LUVz-l064SE.woff2) format("woff2"),url(//fonts.gstatic.com/s/merriweather/v15/EYh7Vl4ywhowqULgRdYwIL0qgHI2SEqiJszC-CVc3gY.woff) format("woff");
+}
+
+@font-face {
+  font-family: Merriweather;
+  font-style: italic;
+  font-weight: 900;
+  src: local("Merriweather Black Italic"),local(Merriweather-BlackItalic),url(//fonts.gstatic.com/s/merriweather/v15/EYh7Vl4ywhowqULgRdYwIEtscAbO_UWeQlriesjXHjg.eot?#) format("eot"),url(//fonts.gstatic.com/s/merriweather/v15/EYh7Vl4ywhowqULgRdYwIN4rWrnaUG5GaGDO0TOZR8c.woff2) format("woff2"),url(//fonts.gstatic.com/s/merriweather/v15/EYh7Vl4ywhowqULgRdYwIFrTzzUNIOd7dbe75kBQ0MM.woff) format("woff");
+}
+
+@font-face {
+  font-family: Merriweather;
+  font-style: normal;
+  font-weight: 300;
+  src: local("Merriweather Light"),local(Merriweather-Light),url(//fonts.gstatic.com/s/merriweather/v15/ZvcMqxEwPfh2qDWBPxn6noySLpARcVRs9uFJp0LRZgE.eot?#) format("eot"),url(//fonts.gstatic.com/s/merriweather/v15/ZvcMqxEwPfh2qDWBPxn6nk4GofcKVZz6wtzX_QUIqsI.woff2) format("woff2"),url(//fonts.gstatic.com/s/merriweather/v15/ZvcMqxEwPfh2qDWBPxn6nmFp2sMiApZm5Dx7NpSTOZk.woff) format("woff");
+}
+
+@font-face {
+  font-family: Merriweather;
+  font-style: normal;
+  font-weight: 400;
+  src: local(Merriweather),local(Merriweather-Regular),url(//fonts.gstatic.com/s/merriweather/v15/RFda8w1V0eDZheqfcyQ4EHZ2MAKAc2x4R1uOSeegc5U.eot?#) format("eot"),url(//fonts.gstatic.com/s/merriweather/v15/RFda8w1V0eDZheqfcyQ4EOgdm0LZdjqr5-oayXSOefg.woff2) format("woff2"),url(//fonts.gstatic.com/s/merriweather/v15/RFda8w1V0eDZheqfcyQ4EHhCUOGz7vYGh680lGh-uXM.woff) format("woff");
+}
+
+@font-face {
+  font-family: Merriweather;
+  font-style: normal;
+  font-weight: 700;
+  src: local("Merriweather Bold"),local(Merriweather-Bold),url(//fonts.gstatic.com/s/merriweather/v15/ZvcMqxEwPfh2qDWBPxn6nmmsoyWrDyoltQVIP7q_RGg.eot?#) format("eot"),url(//fonts.gstatic.com/s/merriweather/v15/ZvcMqxEwPfh2qDWBPxn6nnNuWYKPzoeKl5tYj8yhly0.woff2) format("woff2"),url(//fonts.gstatic.com/s/merriweather/v15/ZvcMqxEwPfh2qDWBPxn6nnl4twXkwp3_u9ZoePkT564.woff) format("woff");
+}
+
+@font-face {
+  font-family: Merriweather;
+  font-style: normal;
+  font-weight: 900;
+  src: local("Merriweather Black"),local(Merriweather-Black),url(//fonts.gstatic.com/s/merriweather/v15/ZvcMqxEwPfh2qDWBPxn6nl9iNfvTt1gMvrhy159_6ck.eot?#) format("eot"),url(//fonts.gstatic.com/s/merriweather/v15/ZvcMqxEwPfh2qDWBPxn6ntDLwwZd-mS_8JqJ_KGXwxs.woff2) format("woff2"),url(//fonts.gstatic.com/s/merriweather/v15/ZvcMqxEwPfh2qDWBPxn6ngi3Hume1-TKjJz2lX0jYjo.woff) format("woff");
+}
+
+body {
+  background: #2e2e30;
+}
+
+.header {
+  margin-top: 30px;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.navigation {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.logo_link {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 22px;
+  font-weight: 800;
+  line-height: 26px;
+  padding: 15px;
+}
+
+.logo_link:hover {
+  background: #38383a;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.nav_menu {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background: #38383a;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.nav_menu li {
+  margin: 20px;
+}
+
+.nav_menu_link {
+  text-decoration: none;
+  color: #888;
+  font-family: MerriweatherSans;
+  font-size: 13px;
+  line-height: 26px;
+  font-weight: 400;
+  padding: 20px 15px;
+  margin: 0 5px;
+}
+
+.nav_menu_link:hover {
+  color: #fff;
+}
+
+.content {
+  margin-top: 35px;
+}
+
+.header_post {
+  position: relative;
+}
+
+.header_post_img {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.header_post_img {
+  background: url(../img/content/lifestyle.jpg) no-repeat;
+  background-size: cover;
+  vertical-align: middle;
+  width: 100%;
+  height: 615px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.header_post_descr {
+  position: relative;
+  left: 50px;
+  top: 205px;
+  max-width: 550px;
+}
+
+.header_post_category {
+  padding: 8px 15px;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1;
+  text-transform: uppercase;
+  background: #4b77be;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.header_post_title {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.header_post_text {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.62;
+}
+
+.header_post_link {
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 6px 21px;
+  color: #fff;
+  font-family: MerriweatherSans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.8;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+}
+
+.header_post_link:hover {
+  color: #999;
+  border: 1px solid rgba(153, 153, 153, 0.7);
+}
+
+.header_post_info {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.header_post_info:after {
+  position: absolute;
+  top: 0;
+  content: "";
+  width: 100%;
+  height: 5px;
+  background: #fff;
+}
+
+.header_post_item {
+  max-width: 170px;
+  padding-left: 45px;
+  padding-right: 60px;
+  cursor: pointer;
+}
+
+.header_post_item.active {
+  background: #4b77be;
+  z-index: 5;
+}
+
+.post_item_category {
+  display: inline-block;
+  color: #38383a;
+  font-family: MerriweatherSans;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 26px;
+  text-transform: uppercase;
+  margin-top: 25px;
+}
+
+.post_item_text {
+  color: #38383a;
+  font-family: Merriweather;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  padding-bottom: 10px;
+}
