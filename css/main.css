@@ -307,35 +307,76 @@ body {
 
 .news_posts {
   margin-top: 35px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .news_post_item {
   position: relative;
   background: #fff;
+  max-height: 420px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
-  width: 33%;
+  margin-bottom: 35px;
 }
 
-.news_post_item:hover {
+.post_sm {
+  width: 31%;
+}
+
+.post_sm:hover {
   background: #38383a;
 }
 
-.news_post_item:hover .news_post_pic:after {
+.post_sm:hover .news_post_pic:after {
   background: #38383a;
+}
+
+.post_sm:hover .news_post_title {
+  color: #fff;
+}
+
+.post_sm:hover .news_post_text {
+  color: #fff;
+}
+
+.post_sm:hover .news_post_link {
+  color: #fff;
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.post_sm:hover .news_post_comment {
+  border-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+
+.post_sm:hover .news_post_like .fa-heart-o {
+  color: #fff;
+  border-color: rgba(255, 255, 255, 0.2);
 }
 
 .news_post_pic {
   position: relative;
   -webkit-border-radius: 5px;
   border-radius: 5px;
+  height: 185px;
+  overflow: hidden;
 }
 
 .news_post_pic:after {
   position: absolute;
   content: "";
   left: 0;
-  bottom: 4px;
+  bottom: 0px;
   width: 100%;
   height: 5px;
   background: #fff;
@@ -369,10 +410,15 @@ body {
   -webkit-border-radius: 5px;
   border-radius: 5px;
   text-transform: uppercase;
+  letter-spacing: 4px;
 }
 
 .country {
   background: #26a65b;
+}
+
+.people {
+  background: #e52a40;
 }
 
 .news_post_descr {
@@ -389,14 +435,32 @@ body {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  max-height: 235px;
 }
 
 .news_post_title {
+  color: #38383a;
+  font-family: Merriweather;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 26px;
+  margin: 0;
+  margin-top: 25px;
+}
+
+.news_post_title.title_sm {
   max-width: 265px;
 }
 
 .news_post_text {
+  color: #656565;
+  font-family: Merriweather;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 15px;
+}
+
+.news_post_text.text_sm {
   max-width: 265px;
 }
 
@@ -406,7 +470,99 @@ body {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  -webkit-justify-content: space-around;
-  -ms-flex-pack: distribute;
-  justify-content: space-around;
+  border-top: 1px solid #cccccc;
+  padding-top: 20px;
+  margin-bottom: 15px;
+}
+
+.news_post_link {
+  color: #2e2e30;
+  font-family: MerriweatherSans;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 5px 15px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  -webkit-border-radius: 25px;
+  border-radius: 25px;
+  margin-left: 35px;
+}
+
+.news_post_link:hover {
+  opacity: .7;
+}
+
+.news_post_comment {
+  color: #2e2e30;
+  font-family: MerriweatherSans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  padding: 5px 15px;
+  padding-left: 25px;
+  margin-left: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.news_post_comment:hover {
+  opacity: .7;
+}
+
+.fa-commenting-o:before {
+  margin-right: 5px;
+  font-size: 17px;
+  margin-left: -6px;
+}
+
+.news_post_like .fa-heart-o {
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+  padding: 10px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.news_post_like:hover {
+  opacity: .7;
+}
+
+.post_big {
+  width: 66%;
+}
+
+.post_descr_big {
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  margin-left: 40px;
+  max-height: 365px;
+}
+
+.title_big {
+  max-width: 320px;
+  margin-top: 120px;
+}
+
+.text_big {
+  max-width: 390px;
+}
+
+.post_info_big {
+  border: none;
+  padding: 0;
+  margin-top: 55px;
+}
+
+.people_img {
+  position: absolute;
+  top: 95px;
+  right: 35px;
 }
