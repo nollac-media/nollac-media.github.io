@@ -384,8 +384,6 @@ body {
 
 .news_post_img {
   width: 100%;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
 }
 
 .post_item_text {
@@ -419,6 +417,14 @@ body {
 
 .people {
   background: #e52a40;
+}
+
+.travel {
+  background: #663399;
+}
+
+.technology {
+  background: #e87e04;
 }
 
 .news_post_descr {
