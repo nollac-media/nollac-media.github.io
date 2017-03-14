@@ -29,5 +29,8 @@
 
 
 $(document).ready(function(){
-    $(".header_post").lightTabs();
+    $('.header_post').lightTabs();
 });
+
+
+$('.slick_slider').slick({});
