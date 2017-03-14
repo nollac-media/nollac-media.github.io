@@ -835,3 +835,7 @@ body {
 .accordeon_item.active .accordeon_item_pic {
   display: block;
 }
+
+.accordeon_item.active .accordeon_arrow {
+  display: none;
+}
