@@ -97,6 +97,8 @@ body
 	line-height: 1.62
 
 .header_post_link
+	position: fixed
+	top: 540px
 	text-decoration: none
 	text-transform: uppercase
 	padding: 6px 21px
@@ -253,25 +255,31 @@ body
 
 .country 
 	background: #26a65b
+.science
+	background: #8e333e
 .people
 	background: #e52a40
 .travel
 	background: #663399
 .technology
 	background: #e87e04
+.education
+	background: #3be96c
 .economy 
 	background: #e74c3c
 	left: 125px
 .decor 
 	background: #4183d7
-	top: 185px
+	position: relative
+	display: inline-block
+	width: 140px
+	top: -40px
 	left: 20px
 
 .news_post_descr
 	display: flex
 	flex-direction: column
 	align-items: center
-	// max-height: 235px
 
 .news_post_title
 	color: #38383a
@@ -389,7 +397,6 @@ body
 .title_full
 	color: #fff
 
-
 .post_info_full
 	border: none
 	.news_post_link
@@ -402,3 +409,44 @@ body
 		border-color: #fff
 		color: #fff
 
+.slick_slider
+	height: 420px
+	background: none
+	outline: none
+	position: relative
+
+.post_slider_bg
+	position: relative
+	background: url(../img/content/home.jpg) center center
+	background-size: 110%
+	height: 100%
+	border-radius: 5px
+
+.post_slider_descr 
+	padding-top: 200px
+	display: flex
+	flex-direction: column
+	.news_post_title
+		color: #fff
+		width: 230px
+		margin-left: 20px
+
+.post_info_full 
+	margin-top: 40px
+	.news_post_link
+		margin-left: 20px
+
+.slick-dots
+	bottom: 80px
+
+.slick-dots li 
+	left: -95px
+
+.slick-dots li button:before
+	font-size: 20px
+	color: #fff
+	opacity: .5
+
+.slick-dots li.slick-active button:before
+	color: #fff
+	opacity: 1

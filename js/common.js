@@ -33,4 +33,7 @@ $(document).ready(function(){
 });
 
 
-$('.slick_slider').slick({});
+$('.slick_slider').slick({
+	dots: true,
+	arrows: false
+});
