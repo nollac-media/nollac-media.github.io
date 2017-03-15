@@ -37,3 +37,8 @@ $('.slick_slider').slick({
 	dots: true,
 	arrows: false
 });
+
+$('.accordeon_item').on('click',  function() {
+	$(this).addClass('active');
+	$('.accordeon_item').not(this).removeClass('active');
+});

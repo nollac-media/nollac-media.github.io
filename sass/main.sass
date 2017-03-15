@@ -462,14 +462,21 @@ body
 	width: 65.5%
 	height: 420px
 	background: #fff
+	overflow: hidden
 
 .accordeon_item
 	position: relative
 	display: flex
 	flex-direction: row
 	flex-wrap: wrap
-	padding-top: 15px
+	height: 30px
+	padding: 15px 0
 	padding-left: 30px
+	cursor: pointer
+	transition: 0.2s
+	border-bottom: 1px solid rgba(0,0,0, 0.5)
+	&:hover
+		opacity: .8
 
 .accordeon_title
 	color: #2e2e30
@@ -543,6 +550,8 @@ body
 	flex-direction: column
 	height: 200px
 	background: #f2f1f1
+	&:hover
+		opacity: 1
 	& .accordeon_item_title
 		max-width: 370px
 		margin-top: 10px
@@ -555,3 +564,57 @@ body
 		display: block
 	& .accordeon_arrow
 		display: none
+
+.load_more
+	width: 100%
+	text-align: center
+	background: #38383a
+	border-radius: 5px
+	padding: 20px 0
+	margin-bottom: 50px
+
+.load_more_link
+	position: relative
+	color: #8e8e8e
+	font-family: MerriweatherSans Bold
+	font-size: 14px
+	font-weight: 700
+	line-height: 26px
+	padding: 25px 50px
+	text-transform: uppercase
+	text-decoration: none
+	&:hover
+		color: #ccc
+	&:before
+		position: absolute
+		content: "\f021"
+		font-family: FontAwesome
+		font-weight: 100
+		top: 19px
+		left: 20px
+
+.footer_info
+	display: flex
+	justify-content: space-between
+
+.design
+	color: #fff
+	font-family: Lato
+	font-size: 16px
+	line-height: 0
+	font-weight: 400
+
+.social
+	margin: 0
+	padding: 0
+	list-style: none
+	li
+		display: inline-block
+
+.social_link
+	color: #a5a5a5
+	padding: 10px 15px
+	&:hover
+		color: #858585
+	&.behance
+		padding-right: 0
