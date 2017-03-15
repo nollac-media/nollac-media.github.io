@@ -402,7 +402,7 @@ body {
 }
 
 .post_sm {
-  width: 31%;
+  width: 341px;
   height: 420px;
 }
 
@@ -636,7 +636,7 @@ body {
 }
 
 .post_big {
-  width: 66%;
+  width: 721px;
 }
 
 .post_descr_big {
@@ -779,7 +779,7 @@ body {
   background: #fff;
   -webkit-border-radius: 5px;
   border-radius: 5px;
-  width: 65.5%;
+  width: 721px;
   height: 420px;
   background: #fff;
   overflow: hidden;
