@@ -126,6 +126,7 @@
 
 body {
   background: #2e2e30;
+  min-width: 320px;
 }
 
 .header {
@@ -580,6 +581,7 @@ body {
   line-height: 26px;
   margin: 0;
   margin-top: 25px;
+  z-index: 10;
 }
 
 .news_post_title.title_sm {
@@ -593,6 +595,7 @@ body {
   font-weight: 400;
   line-height: 26px;
   margin-bottom: 15px;
+  z-index: 10;
 }
 
 .news_post_text.text_sm {
@@ -816,6 +819,7 @@ body {
   width: 721px;
   height: 420px;
   background: #fff;
+  margin-bottom: 35px;
   overflow: hidden;
 }
 
