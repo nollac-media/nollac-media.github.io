@@ -147,6 +147,7 @@ body {
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  position: relative;
 }
 
 .logo_link {
@@ -179,23 +180,54 @@ body {
   border-radius: 5px;
 }
 
-.nav_menu li {
-  margin: 20px;
-}
-
 .nav_menu_link {
+  display: inline-block;
   text-decoration: none;
   color: #888;
   font-family: MerriweatherSans;
   font-size: 13px;
   line-height: 26px;
   font-weight: 400;
-  padding: 20px 15px;
+  padding: 20px 35px;
   margin: 0 5px;
 }
 
 .nav_menu_link:hover {
   color: #fff;
+}
+
+.mob_menu {
+  position: absolute;
+  display: none;
+  top: 18px;
+  right: 10px;
+  width: 30px;
+  height: 30px;
+  background: -webkit-gradient(linear, left top, left bottom, from(black), color-stop(20%, black), color-stop(20%, white), color-stop(40%, white), color-stop(40%, black), color-stop(60%, black), color-stop(60%, white), color-stop(80%, white), color-stop(80%, black), to(black));
+  background: -webkit-linear-gradient(top, black, black 20%, white 20%, white 40%, black 40%, black 60%, white 60%, white 80%, black 80%, black 100%);
+  background: linear-gradient(to bottom, black, black 20%, white 20%, white 40%, black 40%, black 60%, white 60%, white 80%, black 80%, black 100%);
+  outline: 1px solid white;
+}
+
+.nav_menu.active {
+  position: absolute;
+  top: 50px;
+  right: 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  z-index: 1;
+}
+
+.nav_menu.active .nav_menu_link {
+  padding: 30px 80px;
+  font-size: 28px;
 }
 
 .content {
@@ -257,8 +289,8 @@ body {
 }
 
 .header_post_link {
-  position: fixed;
-  top: 540px;
+  position: absolute;
+  bottom: -60px;
   text-decoration: none;
   text-transform: uppercase;
   padding: 6px 21px;
@@ -404,6 +436,8 @@ body {
 .post_sm {
   width: 341px;
   height: 420px;
+  margin-right: 7px;
+  margin-left: 7px;
 }
 
 .post_sm:hover {

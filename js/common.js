@@ -42,3 +42,8 @@ $('.accordeon_item').on('click',  function() {
 	$(this).addClass('active');
 	$('.accordeon_item').not(this).removeClass('active');
 });
+
+$('.mob_menu').on('click', function(e) {
+	e.preventDefault();
+	$('.nav_menu').toggleClass('active');
+});
