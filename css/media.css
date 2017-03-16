@@ -214,6 +214,10 @@
   .accordeon_item.active .accordeon_item_title {
     max-width: 300px;
   }
+
+  .economy {
+    left: 80px;
+  }
 }
 
 @media only screen and (max-width: 350px) {
