@@ -223,7 +223,7 @@ body {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  z-index: 1;
+  z-index: 20;
 }
 
 .nav_menu.active .nav_menu_link {
@@ -683,6 +683,7 @@ body {
   align-items: flex-start;
   margin-left: 40px;
   max-height: 365px;
+  padding-right: 10px;
 }
 
 .title_big {
